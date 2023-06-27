@@ -1,0 +1,477 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+    scroll-behavior: smooth;
+    
+}
+
+
+.topnav {
+    overflow: hidden;
+    /* background-color: #333; */
+    padding-right: 50px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    
+    
+    
+  }
+  .topnav img {
+    height: auto;
+    width: 25%;
+    padding-left: 10%;
+    padding-bottom: 2px;
+   
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    padding-top: 20px;
+    
+  }
+  
+  .topnav a:hover {
+  
+    color: rgb(199, 199, 199);
+  }
+  .dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+.dropdown {
+    display: none;
+}
+  
+
+.bg {
+    /* The image used */
+    background-color: rgb(0, 0, 0);
+    background-image: url("photo/_R0A0005.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+    /* padding-top: 50px; */
+    padding-bottom: 100px;
+
+    position:relative;
+
+}
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 25%;
+    padding-bottom: 50px;
+
+    text-align: right;
+   
+
+    
+
+}
+
+.started_btn {
+    font-size: 16px;
+    border: none;
+    background-color: #f2f2f2;
+    text-align: center;
+    transition-duration: 0.4s;
+    padding: 14px 30px;
+    border-radius: 2px;
+}
+
+.started_btn:hover {
+    background-color: crimson;
+}
+h2 { 
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-size: 30px;
+    margin-bottom: 0%;
+
+}
+    
+h1 {
+    /* text-align: right; */
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    margin-top: 0%;
+    font-size: 50px;
+    
+}
+
+/* service */
+
+.service {
+        
+    background-color: rgb(255, 255, 255);
+
+
+    /* Full height */
+    height: fit-content; 
+
+    
+}
+
+.service_container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+
+
+}
+
+.service h1 {
+    text-align: center;
+}
+
+.personal_traning {
+    width: 40%;
+    
+    float: left;
+}
+
+.powerlifting {
+    width: 40%;
+   
+    float: right;
+    
+}
+
+.perform_strength {
+    width: 40%;
+    
+    float: left;
+}
+
+.nutrition {
+    width: 40%;
+    float: right
+}
+
+.about {
+    height: fit-content;
+    
+    background-color: black;
+    
+    
+}
+.info_contain {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.about h1 {
+    text-align: center;
+}
+
+
+.info img {
+
+    
+    height: 500px;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    
+    
+   
+}
+
+
+
+.contact {
+    height:fit-content;
+    background-color: rgb(255, 255, 255);
+    
+    
+    
+}
+.contact h1 {
+
+    text-align: center;
+   
+}
+.contact_container {
+    max-width: 960px ;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+
+.contact_container p {
+    margin:0%;
+}
+
+.contact_info {
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.contact_info a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.4s;
+  
+}
+
+.contact_info a:hover {
+    color: crimson;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 1rem;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+
+   
+    
+   
+}
+
+input,
+select,
+textarea {
+    padding: 1.4rem;
+    background: transparent;
+    border: 1px solid black;
+    
+}
+
+
+.contact button {
+    font-size: 16px;
+    border: none;
+    background-color: #f2f2f2;
+    text-align: center;
+    transition-duration: 0.4s;
+    padding: 14px 30px;
+    border-radius: 2px;
+
+}
+
+.contact button:hover {
+    background-color: crimson;
+
+}
+
+
+footer {
+
+    border: none;
+    text-align: center;
+    transition-duration: 0.4s;
+    padding: 14px 30px;
+    border-radius: 2px;
+    height: fit-content;
+    background-color: black;
+    color: white;
+}
+
+
+footer h2 {
+
+    text-align: center;
+
+}
+
+.socail_link {
+    padding-top: 10px;
+    padding-bottom: 11px;
+    width: 100%;
+}
+
+.socail_link a{
+    color: white;
+    transition-duration: 0.4s;
+    font-size: 30px;
+    text-decoration: none;
+    position:relative;
+    text-align: center;
+    
+
+}
+
+.socail_link a:hover {
+    color:crimson;
+    font-size: 34px;
+
+}
+.powerd-by {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+
+@media (max-width: 700px) 
+{   
+
+/* take of full size menu */
+.topnav {
+    display: none;
+}
+    /* Dropdown Button */
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    /* overflow: hidden;
+    /* background-color: #333; */
+    padding-right: 50px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    position: relative;
+    display: inline-block;
+    /* float: right; */
+  }
+  .dropdown img {
+    height: auto;
+    width: 50%;
+    padding-left: 10%;
+    padding-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   
+  }
+
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #f1f1f1; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 35%;
+    
+  }
+ 
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {color:crimson;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+ 
+   
+   /* h1 {
+        font-size:24px;
+        text-align: center;
+   }
+   h2 {
+        font-size:15px;
+   } */
+
+
+    .personal_traning {
+        width: 100%;
+        
+        float:none
+    }
+
+    .powerlifting {
+        width: 100%;
+    
+        float: none;
+        
+    }
+
+    .perform_strength {
+        width: 100%;
+        
+        float: none;
+    }
+
+    .nutrition {
+        width: 100%;
+        float: none;
+    }
+
+    .info img {
+
+    
+        
+        width: 80%;
+        height: auto;
+        float: none;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 20px;
+       
+        
+        
+       
+    }
+    .contact_container iframe {
+        width: 90%;
+        
+    }
+}
+
